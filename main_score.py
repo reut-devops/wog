@@ -41,3 +41,5 @@ def score_server():
 
     with open('score_games.html', 'w') as file:
         file.write(str(html_content))
+
+    return html_content
